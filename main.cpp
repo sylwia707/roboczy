@@ -22,5 +22,18 @@ int main()
     cin >> c;
     w = c/0;
     cout << "Brawo, udalo sie podzielic liczbe "<<a<<" przez zero ^^ Wynik to: "<< w << endl;	
+
+
+
+char *ptr1;
+               char *ptr2;
+       
+               ptr1 = (char *) malloc(512);
+               ptr2 = (char *) malloc(512);
+       
+              ptr1=ptr2;
+       
+              free(ptr1);
+              free(ptr2);
 	return 0;
 }
